@@ -44,96 +44,129 @@
           <p class="bd-lead">Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.</p>
           <script async src="https://cdn.carbonads.com/carbon.js?serve=CKYIKKJL&placement=getbootstrapcom" id="_carbonads_js"></script>
 
-          <div class="d-flex flex-row bd-highlight mb-3">
-          <div class="p-2 bd-highlight">Flex item 1</div>
-          <div class="p-2 bd-highlight">Flex item 2</div>
-          <div class="p-2 bd-highlight">Flex item 3</div>
-        </div>
-        <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight">Flex item 1</div>
-          <div class="p-2 bd-highlight">Flex item 2</div>
-          <div class="p-2 bd-highlight">Flex item 3</div>
-        </div>
+         <div class="card" style="width: 18rem;">
+  <img src="img/lisa.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card with stretched link</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+  </div>
+</div>
 
           <!-- ------------ 2nd ----------------------- -->
           <hr>
-          <div class="d-flex flex-column bd-highlight mb-3">
-          <div class="p-2 bd-highlight">Flex item 1</div>
-          <div class="p-2 bd-highlight">Flex item 2</div>
-          <div class="p-2 bd-highlight">Flex item 3</div>
-        </div>
-        <div class="d-flex flex-column-reverse bd-highlight">
-          <div class="p-2 bd-highlight">Flex item 1</div>
-          <div class="p-2 bd-highlight">Flex item 2</div>
-          <div class="p-2 bd-highlight">Flex item 3</div>
-        </div>
+          <div class="media position-relative">
+  <img src="img/lisa.webp" class="mr-3" alt="..." width="130px" height="130px">
+  <div class="media-body">
+    <h5 class="mt-0">Media with stretched link</h5>
+    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+    <a href="#" class="stretched-link">Go somewhere</a>
+  </div>
+</div>
 
           <!-- ------------ 3rd ----------------------- -->
           <hr>
-          <div class="d-flex justify-content-start">Flex item...</div>
-        <div class="d-flex justify-content-end">Flex item...</div>
-        <div class="d-flex justify-content-center">Flex item...</div>
-        <div class="d-flex justify-content-between">Flex item...</div>
-        <div class="d-flex justify-content-around">Flex item...</div>
+         <div class="row no-gutters bg-light position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="img/lisa.webp" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 position-static p-4 pl-md-0">
+    <h5 class="mt-0">Columns with stretched link</h5>
+    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+    <a href="#" class="stretched-link">Go somewhere</a>
+  </div>
+</div>
           
            <!-- ------------ 4th ----------------------- -->
            <hr>
-         <div class="align-self-start">Aligned flex item</div>
-        <div class="align-self-end">Aligned flex item</div>
-        <div class="align-self-center">Aligned flex item</div>
-        <div class="align-self-baseline">Aligned flex item</div>
-        <div class="align-self-stretch">Aligned flex item</div>
+         <div class="card" style="width: 18rem;">
+  <img src="img/lisa.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card with stretched links</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">
+      <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>
+    </p>
+    <p class="card-text bg-light" style="transform: rotate(0);">
+      This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.
+    </p>
+  </div>
+</div>
                 
           
 
             <!-- ------------ 6th ----------------------- -->
            <hr>
-           <h1 class="bd-title" id="content">Float</h1>
-          <p class="bd-lead">Toggle floats on any element, across any breakpoint, using our responsive float utilities.</p>
-     <div class="float-left">Float left on all viewport sizes</div><br>
-<div class="float-right">Float right on all viewport sizes</div><br>
-<div class="float-none">Don't float on all viewport sizes</div>
+      <p class="text-left">Left aligned text on all viewport sizes.</p>
+<p class="text-center">Center aligned text on all viewport sizes.</p>
+<p class="text-right">Right aligned text on all viewport sizes.</p>
+
+
 
  <!-- ------------ 7th ----------------------- -->
            <hr>
-
-<div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
-<div class="shadow-sm p-3 mb-5 bg-white rounded">Small shadow</div>
-<div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
-<div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>
+<div class="badge badge-primary text-wrap" style="width: 6rem;">
+  This text should wrap.
+</div>
 
 <!-- ------------ 7th ----------------------- -->
            <hr>
 
-<div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
-<div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
-<div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
-<div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
-<div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+<div class="text-nowrap bd-highlight" style="width: 8rem;">
+  This text should overflow the parent.
+</div>
    
    <!-- ------------ 7th ----------------------- -->
            <hr>
-<div style="height: 100px; background-color: rgba(255,0,0,0.1);">
-  <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
-  <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
-  <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
-  <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
-  <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+<!-- Block level -->
+<div class="row">
+  <div class="col-2 text-truncate">
+    Praeterea iter est quasdam res quas ex communi.
+  </div>
 </div>
+
+<!-- Inline level -->
+<span class="d-inline-block text-truncate" style="max-width: 150px;">
+  Praeterea iter est quasdam res quas ex communi.
+</span>
 
 <!-- ------------ 7th ----------------------- -->
            <hr>
-           <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
-  <div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,0.1);">Max-height 100%</div>
-</div>
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
 
 <!-- ------------ 7th ----------------------- -->
            <hr>
-<div class="row mx-md-n5">
-  <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
-  <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
-</div>
+<p class="font-weight-bold">Bold text.</p>
+<p class="font-weight-bolder">Bolder weight text (relative to the parent element).</p>
+<p class="font-weight-normal">Normal weight text.</p>
+<p class="font-weight-light">Light weight text.</p>
+<p class="font-weight-lighter">Lighter weight text (relative to the parent element).</p>
+<p class="font-italic">Italic text.</p>
 
+<!-- ------------ 7th ----------------------- -->
+           <hr>
+<p class="text-monospace">This is in monospace</p>
+<p class="text-muted">
+  Muted text with a <a href="#" class="text-reset">reset link</a>.
+</p>
+<a href="#" class="text-decoration-none">Non-underlined link</a>
+
+<!-- ------------ 7th ----------------------- -->
+           <hr>
+<table style="height: 100px;">
+  <tbody>
+    <tr>
+      <td class="align-baseline">baseline</td>
+      <td class="align-top">top</td>
+      <td class="align-middle">middle</td>
+      <td class="align-bottom">bottom</td>
+      <td class="align-text-top">text-top</td>
+      <td class="align-text-bottom">text-bottom</td>
+    </tr>
+  </tbody>
+</table>
           </div>
         </div>
       </div>
