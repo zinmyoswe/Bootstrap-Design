@@ -1,0 +1,78 @@
+ .haha{
+        display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin: .25rem;
+    background-color: #f5f5f5;
+        
+      }
+      .img2{
+          width: 100px;
+          height: 100px;
+      }
+      .bd-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.bd-lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#carbonads {
+    position: static;
+    display: block;
+    max-width: 400px;
+    padding: 15px 15px 15px 160px;
+    margin: 2rem 0;
+    overflow: hidden;
+    font-size: .8125rem;
+    line-height: 1.4;
+    text-align: left;
+    background-color: rgba(0,0,0,.05);
+}
+.carbon-img {
+    float: left;
+    margin-left: -145px;
+}
+#carbonads a {
+    color: #333;
+    text-decoration: none;
+}
+.carbon-poweredby {
+    display: block;
+    color: #777!important;
+}
+
+
+.highlight {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.highlight pre {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+}
+.highlight pre code {
+    font-size: inherit;
+    color: #212529;
+}
+
+@media (max-width: 1200px)
+.bd-title {
+    font-size: calc(1.425rem + 2.1vw);
+}
+.bd-lead {
+    font-size: calc(1.275rem + .3vw);
+}
